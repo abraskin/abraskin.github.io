@@ -3,10 +3,10 @@
 	  <head>
 	    <meta charset="utf-8">
 	    <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
 	  </head>
 	  <body>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
+    <?php include "toc.html"; ?>
     <h1>This is my Portfolio Page!</h1>
     <img src="images/portfolio.jpg" height="250">
     <br>

@@ -4,14 +4,10 @@
     <meta charset="utf-8">
     <title>Mr. Braskin's Home</title>
     <link rel="stylesheet" type="text/css" href="myStyle.css">
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
   </head>
   <body>
-    <div w3-include-html="toc.html"></div>
+    <?php include "toc.html"; ?>
     <h1>This is Mr. Braskin's Home Page!</h1>
     <img src="images/home.jpg" height="250">
-    <script>
-      w3IncludeHTML();
-    </script>
   </body>
 </html>
