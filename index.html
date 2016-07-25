@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <title>Mr. Braskin's Home</title>
     <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <script src="jquery-3.1.0.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#toc").load("toc.html"); 
+    });
+    </script>
   </head>
   <body>
-    <?php include "toc.html"; ?>
-    <h1>This is Mr. Braskin's Home Page!</h1>
     <img src="images/home.jpg" height="250">
+    <h1>This is Mr. Braskin's Home Page!</h1>
+	  <div id="toc"></div>
   </body>
 </html>
