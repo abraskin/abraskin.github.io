@@ -4,6 +4,34 @@
 	    <meta charset="utf-8">
 	    <title>Portfolio</title>
         <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script>
+            /* Tooltip container */
+            .tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+            }
+            
+            /* Tooltip text */
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+             
+                /* Position the tooltip text - see examples below! */
+                position: absolute;
+                z-index: 1;
+            }
+            
+            /* Show the tooltip text when you mouse over the tooltip container */
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+        </script>
         <script src="jquery-3.1.0.min.js"></script> 
         <script> 
         $(function(){
@@ -25,7 +53,8 @@
             </tr>
             <tr>
                 <td style="text-align:center">
-                    <a target="_blank" href="files/spaceinvaders.apk" download><img src="images/SpaceInvaderScreenShot.png" width=300px><br>Download App</a>
+                    <a target="_blank" href="files/spaceinvaders.apk" download><img src="images/SpaceInvaderScreenShot.png" width=300px class="tooltip"><br>Download App</a>
+                    <span class="tooltiptext">Click to Download App</span>
                     <br><a target="_blank" href="files/spaceinvaders.aia" download><span style="text-align:center">Download Source</span></a>
                 </td>
                 <td>
