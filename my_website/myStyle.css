@@ -2,6 +2,9 @@ h1 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
 }
+. cText {
+    text-align: center;
+}
 div ul {
     list-style-type: none;
     margin: 0;
